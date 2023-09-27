@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="utf-8">
+        <meta name="viewport" content="width=device-width, initial-scaling=1.0">
+        <link rel="stylesheet" href="./styles.css">
+        <title>Website Feedback</title>
+    </head>
+    <body>
+        <div class="title">
+            <h1 id="title"></h1>
+        </div>
+        <div class="introduction">
+            <p id="description">Thank you for taking the time to help us improve the platform</p>
+        </div>
+        <div class="feedback">
+            <form id="survey-form">
+                <label for="name" id="name-label">Name<input id="name" type="text" placeholder="Enter your name" required /></label>
+                <label for="email" id="email-label">Email<input id="email" type="email" placeholder="Enter your Email" required" /></label>
+                <label for="age" id="number-label">Age (Optional)<input id="number" type="number" min="13" max="120" placeholder="Age" /></label>
+                <label for="dropdown"><select id="dropdown">
+                     <option>Select current role</option>
+                    </select>
+                </label>
+            </form>
+        </div>
+    </body>
+</html>
